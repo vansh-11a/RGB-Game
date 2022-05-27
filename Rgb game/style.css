@@ -1,0 +1,69 @@
+body
+{
+    background-color: black;
+    margin: 0;
+    font-family: "Avenir";
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: steelblue;
+    margin: 0;
+    padding: 20px 0;
+}
+
+
+.container
+{
+    width: 600px;
+    height: 600px;
+    margin:0 auto;
+}
+
+.square
+{
+    float: left; 
+    /*IF we dont use float left all blocks will be vertical one below another*/
+    width: 30%;
+   background-color: chocolate;
+   height: 30%;
+   margin: 1.66%;
+   border-radius: 40px;
+   transform: transition 0.5s;
+}
+
+.message
+{
+    color: red;
+}
+
+.strap
+{
+    width: 100%;
+    height: 28px;
+    background-color: wheat;
+    text-align: center;
+}
+
+.selected
+{
+    background-color: blue;
+}
+
+.block
+{
+    margin-right: 100px;
+}
+
+button
+{
+    text-align: center;
+}
+
+#rgb
+{
+    font-size: 
